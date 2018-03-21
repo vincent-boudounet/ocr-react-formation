@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input.margin-left-small, .margin-left-small {
+    margin-left: 0.5em;
+}
+
+.margin-top-medium {
+    margin-top: 1em;
+}
+
+@media all and (min-width: 767px) {
+    input.margin-left-md, .margin-left-md {
+        margin-left: 1em;
+    }
+}
